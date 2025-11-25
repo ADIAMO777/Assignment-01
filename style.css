@@ -57,6 +57,10 @@ img {
   border-radius: 2px;
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
+#nav-links.show {
+  display: flex !important;
+}
+
 
 @media (max-width: 768px) {
   #nav-links {
