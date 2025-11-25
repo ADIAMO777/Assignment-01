@@ -71,6 +71,30 @@ img {
     width: 160px;
   }
 
+  #nav-links.show {
+    display: flex !important;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/*@media (max-width: 768px)
+{
+  #nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    background: #222;
+    padding: 12px;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 160px;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -78,9 +102,8 @@ img {
   .menu.show {
     display: flex;
   }
-}
+}*/
 
-/* Animated hamburger -> X when active */
-/*.hamburger.active .bar:nth-child(1){ transform: translateY(8px) rotate(45deg); }
+.hamburger.active .bar:nth-child(1){ transform: translateY(8px) rotate(45deg); }
 .hamburger.active .bar:nth-child(2){ opacity:0; }
-.hamburger.active .bar:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }*/
+.hamburger.active .bar:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }
